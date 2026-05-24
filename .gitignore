@@ -1,0 +1,19 @@
+ # Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# Conda/Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data - raw files are downloaded separately (see README)
+data/raw/
+
+# Trained models
+results/models/*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
