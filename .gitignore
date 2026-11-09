@@ -8,11 +8,12 @@ __pycache__/
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# Data - raw files are downloaded separately (see README)
+# Data directories (raw + processed). Raw data is downloaded separately, while processed data is reproducible and therefore excluded from version control.
 data/raw/
+data/processed/
 
-# Trained models
-results/models/*.pkl
+# Results (figures + trained models) are generated locally and excluded from version control.
+results/
 
 # OS
 .DS_Store
