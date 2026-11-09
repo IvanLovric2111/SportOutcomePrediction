@@ -6,6 +6,8 @@ Sport Outcome Prediction is a machine learning project that investigates how wel
 
 Three models of increasing complexity are compared: Logistic Regression, Random Forest and XGBoost. They are evaluated using accuracy, F1 score, ROC-AUC and log loss, with SHAP used to interpret which features drive the predictions. Multiple datasets per sport make it possible to measure the effect of betting odds and of the number of seasons on model performance.
 
+Designed with scalability in mind, this repository provides a foundation for future improvements.
+
 ## Tech Stack
 
 This project was built using the following tools:
@@ -30,4 +32,4 @@ pip install -r requirements.txt
 Raw data is not included in the repository. The data collection notebooks download it from public sources.
 
 ---
-*This project was developed as a graduate thesis at the Faculty of Electrical Engineering, Mechanical Engineering and Naval Architecture (FESB), University of Split.*
+*This project was developed as a master's thesis at the Faculty of Electrical Engineering, Mechanical Engineering and Naval Architecture (FESB), University of Split.*
